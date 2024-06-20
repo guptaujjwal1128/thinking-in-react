@@ -1,0 +1,8 @@
+.product-row {
+  &-in-stock {
+    color: black;
+  }
+  &-not-in-stock {
+    color: rgb(130, 8, 8);
+  }
+}

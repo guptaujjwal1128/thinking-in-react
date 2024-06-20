@@ -1,10 +1,13 @@
 import "./App.scss";
+import FilterableProductTable from "./components/FilterableProductTable/FilterableProductTable";
+import { mockData } from "./helpers/mock-data";
 
 export default function App() {
+  const productRows = mockData;
   return (
     <>
       <main>
-        <h1>Thinking in React</h1>
+        <FilterableProductTable rows={productRows}></FilterableProductTable>
       </main>
     </>
   );

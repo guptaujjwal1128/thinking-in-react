@@ -1,0 +1,17 @@
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  &-text {
+    border: 1.5px solid grey;
+    border-radius: 3px;
+  }
+  &-checkbox {
+    display: flex;
+    gap: 0.5rem;
+    &-input {
+    }
+    &-label {
+    }
+  }
+}

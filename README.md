@@ -2,11 +2,18 @@
 
 This project covers basic concepts of react.
 
+Approach:
+  - First Divide the page into small components
+  - then create static components using props only. No interaction and state management.
+  - Now, think about state management and interactivity as state is required only in case of user interaction.
+  -  Hola, if your approach and codebase is similar to this, you have cracked the "Thinking in React" concepts.
+
 
 ### Prerequisites
 
 - Node.js
 - npm or yarn
+
 
 ### Tech Stack
 - React Library
@@ -64,8 +71,8 @@ This project covers basic concepts of react.
 ### Project Structure
 
  - src/components: Contains the React components used in the application.
- - src/helpers: Contains helper functions for game logic.
- - src/types: Contains TypeScript type definitions for the game.
+ - src/helpers/app.functions: Contains helper functions for game logic.
+ - src/helpers/app.types: Contains TypeScript type definitions for the game.
 
 ### Contributing
 
