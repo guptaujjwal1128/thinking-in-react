@@ -8,6 +8,13 @@ Approach:
   - Now, think about state management and interactivity as state is required only in case of user interaction.
   -  Hola, if your approach and codebase is similar to this, you have cracked the "Thinking in React" concepts.
 
+### Screenshot
+
+![](./screenshot.png)
+
+### Live URL
+
+https://guptaujjwal1128.github.io/thinking-in-react/
 
 ### Prerequisites
 
