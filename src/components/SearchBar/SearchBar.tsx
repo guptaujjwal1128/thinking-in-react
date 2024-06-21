@@ -16,7 +16,7 @@ export default function SearchBar(search: SearchBarProps) {
   }
 
   return (
-    <div className="search-bar">
+    <form className="search-bar">
       <input
         className="search-bar-text"
         type="text"
@@ -24,18 +24,14 @@ export default function SearchBar(search: SearchBarProps) {
         value={search.searchText}
         onChange={handleTextChange}
       />
-      <div className="search-bar-checkbox">
+      <label className="search-bar-checkbox">
         <input
-          className="search-bar-checkbox-input"
           type="checkbox"
-          id="inStockCheckbox"
           checked={search.showProductsInStockOnly}
           onChange={handleCheckboxChange}
         />
-        <label className="search-bar-checkbox-label" htmlFor="inStockCheckbox">
-          Only show products in stock
-        </label>
-      </div>
-    </div>
+        Only show products in stock
+      </label>
+    </form>
   );
 }
